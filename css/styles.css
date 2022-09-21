@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --accent-text-color: #2196f3;
   --dark-text-accent-color: #188CE8;
   --primary-text-color: #000000;
@@ -10,9 +10,9 @@
   --svg-color: #AFB1B8;
   --button-background-color: #F5F4FA;
   --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -32,22 +32,22 @@ ol {
 
 html {
   box-sizing: border-box;
-}
+} */
 
-.body {
+/* .body {
   font-family: var(--main-font);
   color: var(--title-text-color);
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.underline {
+/* .underline {
   text-decoration: none;
 }
 .list {
@@ -63,8 +63,8 @@ html {
 .link {
   text-decoration: none;
   color: currentColor;
-}
-.visually-hidden {
+} */
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -76,12 +76,12 @@ html {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.section{
+/* .section{
   padding-bottom: 94px;
   padding-top: 94px;
-}
+} */
 
 .heading {
   margin-bottom: 50px;
@@ -96,7 +96,7 @@ html {
 
 
 /*---------ШАПКА ПРОФІЛЯ--------*/
-.header{
+ /* .header{
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -104,9 +104,9 @@ html {
 .header__container{
   display: flex;
   align-items: center;
-}
+} 
 
-.navigation{
+ .navigation{
   display: flex;
   align-items: center;
 }
@@ -122,7 +122,7 @@ html {
 
 .navigation__black-logo {
   color: var(--primary-text-color);
-}
+} 
 
 .menu{
   display: flex;
@@ -150,7 +150,7 @@ html {
 .menu__link:hover,
 .menu__link:focus {
   color: var(--accent-text-color);
-}
+} 
 
 .current{
   position: relative;
@@ -172,10 +172,11 @@ html {
 
 .current {
   color: var(--accent-text-color);
-}
-.color:visited::after {
+} 
+
+ .color:visited::after {
   color: var(--accent-text-color);
-}
+} 
 
 .contacts{
   display: flex;
@@ -216,13 +217,13 @@ html {
 .contacts__icon{
   margin-right: 10px;
   fill: var(--primary-gray-color);
-}
+} */
 
 
 
 /*------КНОПКА Замовити послугу------*/
 
-.hero {
+/* .hero {
   background-color: var(--background-color);
   max-width: 1600px;
   height: 600px;
@@ -278,17 +279,13 @@ html {
 
 .hero__button:hover{
   background-color: var(--dark-text-accent-color);
-}
+} */
 
 /*-----------ОСОБЛИВОСТІ----------*/
-.features__list {
+/* .features__list {
   gap: 30px;
   display: flex;
   margin: 0;
-}
-
-.features__item{
-
 }
 
 .features__icon-bg {
@@ -321,14 +318,14 @@ html {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-gray-color);
-}
+} */
 
 
 
 
 
 /*------ЧИМ МИ ЗАЙМАЄМОСЬ--------*/
-.about {
+/* .about {
   padding-top: 0;
 }
 
@@ -363,8 +360,8 @@ html {
   color: var(--primary-white-color);
   background: rgba(47, 48, 58, 0.8);
 
-}
-/*--------КОМАНДА ПРАЦІВНИКІВ-----*/
+} */
+/* --------КОМАНДА ПРАЦІВНИКІВ-----
 
 
 .staff {
@@ -440,12 +437,12 @@ html {
   height: 20px;
   fill: var(--svg-color);
   transition: fill var(--anim-fast);
-}
+} */
 
 /*--------CLIENT-------*/
 
 
-.client__list {
+/* .client__list {
   display: flex;
   justify-content: space-between;
 }
@@ -472,13 +469,13 @@ html {
 .client__icon {
   width: 106px;
   height: 60px;
-}
+} */
 
 
 /*----------- ФУТЕР--------*/
 
 
-.page-footer {
+/* .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--background-color);
@@ -507,11 +504,11 @@ html {
 
 .page-footer__white-logo {
   color: var(--primary-white-color);
-}
+} */
 
 
 /*--------- АДРЕС------------*/
-.address {
+/* .address {
   font-style: normal;
 }
 
@@ -536,12 +533,12 @@ html {
 .address__link:hover,
 .address__link:focus {
   color: var(--accent-text-color);
-}
+} */
 
 
 /*------приєднуйтесь footer-------*/
 
-.social-footer {
+/* .social-footer {
   width: 206px;
   margin-left: 70px;
 }
@@ -586,7 +583,7 @@ html {
 .social-footer__link:hover,
 .social-footer__link:focus {
   background-color: var(--accent-text-color);
-} 
+}  */
 
 
 /*-------Секція з кнопками PORTFOLIO-----*/
