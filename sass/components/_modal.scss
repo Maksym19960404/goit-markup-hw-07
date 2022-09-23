@@ -163,11 +163,12 @@
  .register-form__icon-checked{
 opacity: 0;
 transition: opacity var(--anim-fast);
- }
+
 
  .register-form__checkbox:checked+.register-form__icons & {
    opacity: 1;
  }
+    }
 
  .register-form__icon-unchecked{
   transition: opacity var(--anim-fast);
