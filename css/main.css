@@ -17,13 +17,14 @@ ol {
   padding-left: 0;
 }
 
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.underline {
-  text-decoration: none;
 }
 
 .list {
@@ -36,11 +37,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.link {
-  text-decoration: none;
-  color: currentColor;
 }
 
 .body {
@@ -59,6 +55,23 @@ img {
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+
+.section__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.section__padding-top {
+  padding-top: 0;
+}
+
+.section__staff-bg {
+  background: #f5f4fa;
 }
 
 .visually-hidden {
@@ -111,7 +124,7 @@ img {
           align-items: center;
 }
 
-.navigation__logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -120,7 +133,7 @@ img {
   color: var(--accent-text-color);
 }
 
-.navigation__black-logo {
+.logo__black {
   color: var(--primary-text-color);
 }
 
@@ -151,11 +164,11 @@ img {
   color: var(--accent-text-color);
 }
 
-.current {
+.menu-link__current {
   position: relative;
   color: var(--accent-text-color);
 }
-.current::after {
+.menu-link__current::after {
   content: "";
   left: 0;
   bottom: -1px;
@@ -274,10 +287,6 @@ img {
 }
 
 .about {
-  padding-top: 0;
-}
-
-.about__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,7 +300,7 @@ img {
   position: relative;
 }
 
-.about__wrapper {
+.about__title {
   position: absolute;
   bottom: 0;
   display: -webkit-box;
@@ -315,7 +324,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.features__list {
+.features {
   gap: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,11 +369,11 @@ img {
   color: var(--primary-gray-color);
 }
 
-.staff {
+.section__staff-bg {
   background: #f5f4fa;
 }
 
-.staff__list {
+.staff {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,7 +412,7 @@ img {
   color: var(--primary-gray-color);
 }
 
-.social__list {
+.social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

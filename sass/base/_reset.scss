@@ -16,12 +16,13 @@ ol {
     padding-left: 0;
 }
 
-html {
-    box-sizing: border-box;
+a{
+    text-decoration: none;
+    color: currentColor;
 }
 
-.underline {
-    text-decoration: none;
+html {
+    box-sizing: border-box;
 }
 
 .list {
@@ -34,11 +35,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.link {
-    text-decoration: none;
-    color: currentColor;
 }
 
 .body {

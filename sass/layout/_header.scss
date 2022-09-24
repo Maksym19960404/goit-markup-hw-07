@@ -13,7 +13,7 @@
      align-items: center;
  }
 
- .navigation__logo {
+ .logo {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
      font-size: 26px;
@@ -22,7 +22,7 @@
      color: var(--accent-text-color);
  }
 
- .navigation__black-logo {
+ .logo__black {
      color: var(--primary-text-color);
  }
 
@@ -55,7 +55,7 @@
  }
   }
 
- .current {
+ .menu-link__current {
      position: relative;
      color: var(--accent-text-color);
 

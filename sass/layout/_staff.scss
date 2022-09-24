@@ -1,10 +1,10 @@
 // КОМАНДА ПРАЦІВНИКІВ
 
-.staff {
+.section__staff-bg {
     background: #f5f4fa;
 }
 
-.staff__list {
+.staff{
     display: flex;
 }
 
@@ -41,7 +41,7 @@
     color: var(--primary-gray-color);
 }
 
-.social__list {
+.social{
     display: flex;
     justify-content: space-between;
 }
